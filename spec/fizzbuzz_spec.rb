@@ -16,4 +16,7 @@ describe Integer do
   it 'returns number when NOT divisible by 15' do
     expect(77.fizzbuzz).to eq 77
   end
+  it 'returns number when NOT divisible by 5' do
+    expect(13.fizzbuzz).to eq 13
+  end
 end
