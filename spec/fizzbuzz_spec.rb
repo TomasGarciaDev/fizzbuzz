@@ -13,4 +13,7 @@ describe Integer do
   it 'returns number when NOT divisible by 3' do
     expect(1.fizzbuzz).to eq 1
   end
+  it 'returns number when NOT divisible by 15' do
+    expect(77.fizzbuzz).to eq 77
+  end
 end
